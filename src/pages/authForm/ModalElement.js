@@ -7,25 +7,24 @@ export const Background = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
 `;
 export const ModalWrapper = styled.div`
   background-color: #c4c4c4;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   width: 900px;
-  height: 550px;
+  height: 580px;
   color: black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 350px 550px;
   position: relative;
-  z-index: 0;
+  z-index: 100;
 `;
 
 export const ModalLeft = styled.div`
-  width: 100%;
-  height: 100%;
   background-color: #c4c4c4;
-  padding: 20px 30px;
+  padding-top: 30px;
+  padding-left: 40px;
 `;
 
 export const ModalRight = styled.div`

@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "../../pages/authForm/Modal";
 import {
   Nav,
   NavLink,
