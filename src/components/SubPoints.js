@@ -8,6 +8,7 @@ const SubPoints = (props) => {
     lineHeight: "29px",
     letterSpacing: "0em",
     textAlign: "left",
+    color: "var(--color-blue)",
   };
   return (
     <ol>

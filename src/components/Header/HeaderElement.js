@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0.5rem calc((100vw-1000px) / 2);
+  align-items: flex-start;
+  padding: 2rem;
   height: 708px;
 `;
 export const Content = styled.section`
@@ -15,13 +15,14 @@ export const Content = styled.section`
 
 export const Title = styled.h1`
   height: 211px;
-  width: 720px;
+  width: 800px;
   font-size: 64px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 2000;
   line-height: 78px;
   letter-spacing: 0em;
   text-align: left;
+  color: var(--color-blue);
   left: 100px;
   top: 282px;
   padding-bottom: 100px;
@@ -38,16 +39,17 @@ export const Paragraph = styled.p`
 `;
 
 export const ImageContainer = styled.div`
-  margin-left: 80px;
   display: block;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 `;
 export const Rectangle = styled.div`
+  position: absolute;
+  z-index: 0;
   height: 550px;
   width: 400px;
-  border-radius: 0px;
-  background-color: #4a4848; ;
+  border: 1px solid #d65142;
+  background-color: transparent;
 `;
 
 export const Image = styled.image`

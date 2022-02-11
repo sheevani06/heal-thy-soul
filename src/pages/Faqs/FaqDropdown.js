@@ -27,9 +27,9 @@ const FaqDropdown = () => {
                   <h1>{item.question}</h1>
                   <span>
                     {clicked === index ? (
-                      <FaAngleDown style={{ color: "black" }} />
+                      <FaAngleDown style={{ color: "var(--color-white)" }} />
                     ) : (
-                      <FaAngleUp style={{ color: "black" }} />
+                      <FaAngleUp style={{ color: "var(--color-white)" }} />
                     )}
                   </span>
                 </Wrap>

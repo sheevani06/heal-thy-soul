@@ -7,11 +7,11 @@ export const Nav = styled.nav`
   height: 80px;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw-1000px) / 2);
+  padding: 70px 50px;
 `;
 
 export const NavLink = styled(Link)`
-  color: #000;
+  color: var(--color-blue);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -60,7 +60,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 50px;
-  background: #010606;
+  background: var(--color-red);
   padding: 10px 32px;
   color: #fff;
   border: none;

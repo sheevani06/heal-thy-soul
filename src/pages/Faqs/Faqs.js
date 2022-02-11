@@ -14,11 +14,17 @@ const Faqs = () => {
         }}
       >
         <h1
-          style={{ fontSize: "4rem", marginBottom: "5px", marginTop: "60px" }}
+          style={{
+            fontSize: "4rem",
+            marginBottom: "5px",
+            marginTop: "60px",
+            color: "var(--color-blue)",
+          }}
         >
-          <span style={{ color: "#c4c4c4" }}>FREQUENTLY </span>ASKED QUESTIONS
+          <span style={{ color: "var(--color-lightBlue)" }}>FREQUENTLY </span>
+          ASKED QUESTIONS
         </h1>
-        <h4 style={{ marginTop: "5px" }}>
+        <h4 style={{ marginTop: "5px", color: "var(--color-red)" }}>
           we hope you find your answers here.
         </h4>
       </div>

@@ -15,6 +15,7 @@ const Heading = ({ heading }) => {
     letterSpacing: "0em",
     textAlign: "left",
     textTransform: "uppercase",
+    color: "var(--color-blue)",
   };
   return <h1 style={myStyle}>{heading}</h1>;
 };

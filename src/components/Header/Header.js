@@ -1,6 +1,6 @@
 import React from "react";
 import { NavBtnLink, NavBtn } from "../Navbar/NavbarElement";
-// import myImage from "./Header.png";
+import myImage from "../../images/header.png";
 import {
   HeaderContainer,
   Content,
@@ -14,7 +14,7 @@ const Header = () => {
     <HeaderContainer>
       <Content>
         <Title>
-          Lorem ipsum dolor <br></br>sit amet, consectetur<br></br> adipiscing
+          Lorem ipsum dolor sit<br></br> amet, consectetur<br></br> adipiscing
           elit.
         </Title>
         <Paragraph>
@@ -25,12 +25,12 @@ const Header = () => {
           non consectetur sed.
         </Paragraph>
         <NavBtn>
-          <NavBtnLink to="/form">Sign Up</NavBtnLink>
+          <NavBtnLink to="/form">Join a Group</NavBtnLink>
         </NavBtn>
       </Content>
       <ImageContainer>
         <Rectangle />
-        {/* <Image src={myImage}></Image> */}
+        <img src={myImage} alt="header"></img>
       </ImageContainer>
     </HeaderContainer>
   );

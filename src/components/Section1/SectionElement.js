@@ -4,8 +4,8 @@ export const SectionContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem calc((100vw-1000px) / 2);
   height: 708px;
+  width: 100%;
 `;
 
 export const SectionContent = styled.div`

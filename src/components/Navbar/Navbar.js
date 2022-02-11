@@ -1,5 +1,5 @@
 import React from "react";
-import Modal from "../../pages/authForm/Modal";
+import logo from "./logo.png";
 import {
   Nav,
   NavLink,
@@ -9,25 +9,32 @@ import {
   NavMenu,
 } from "./NavbarElement";
 
-const Navbar = () => {
+const Navbar = ({ handleToggle }) => {
+  const handleClick = () => {
+    handleToggle();
+  };
   return (
     <>
       <Nav>
-        <NavLink exact to="/">
-          <h1>Logo Here</h1>
+        <NavLink exact="true" to="/">
+          <img
+            style={{ transform: "scale(0.8,0.8)" }}
+            src={logo}
+            alt="logo"
+          ></img>
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink activeClassName="active" to="/about">
+          <NavLink activeclassname="active" to="/about">
             About
           </NavLink>
-          <NavLink activeClassName="active" to="/faqs">
+          <NavLink activeclassname="active" to="/faqs">
             FAQs
           </NavLink>
-          <NavLink activeClassName="active" to="/blogs">
+          <NavLink activeclassname="active" to="/blogs">
             Blogs
           </NavLink>
-          <NavLink activeClassName="active" to="/sign-up">
+          <NavLink to="/sign-up" onClick={handleClick}>
             Login/Signin
           </NavLink>
           <NavBtn>

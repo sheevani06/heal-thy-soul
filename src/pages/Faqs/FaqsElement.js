@@ -17,7 +17,7 @@ export const Container = styled.div`
 `;
 
 export const Wrap = styled.div`
-  background: #c4c4cc;
+  background: var(--color-blue);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +32,7 @@ export const Wrap = styled.div`
     font-weight: 500;
     font-style: normal;
     font-size: 1.3rem;
+    color: var(--color-white);
   }
 `;
 

@@ -1,6 +1,7 @@
 import React from "react";
-import { ImageContainer, Rectangle } from "../Header/HeaderElement";
+import { ImageContainer } from "../Header/HeaderElement";
 import Heading from "../Heading";
+import image from "../../images/Benefit.png";
 import { BenefitsContainer, BenefitsContent } from "./BenefitsElement";
 const Benefits = () => {
   const myStyle = {
@@ -12,7 +13,7 @@ const Benefits = () => {
   return (
     <BenefitsContainer>
       <ImageContainer>
-        <Rectangle />
+        <img src={image} alt="benefits"></img>
       </ImageContainer>
       <BenefitsContent>
         <Heading heading="Benefits" />
